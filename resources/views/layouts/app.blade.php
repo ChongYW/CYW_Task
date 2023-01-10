@@ -58,6 +58,7 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
 
                                     <a class="dropdown-item" href="{{ route('profile') }}">
                                         {{ __('Profile') }}
@@ -71,6 +72,8 @@
                                         {{ __('Edit profile') }}
                                     </a>
 
+=======
+>>>>>>> 1aaa511 (first and completed commit)
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

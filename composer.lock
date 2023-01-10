@@ -1664,6 +1664,7 @@
         },
         {
             "name": "nesbot/carbon",
+<<<<<<< HEAD
             "version": "2.64.0",
             "source": {
                 "type": "git",
@@ -1674,6 +1675,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/889546413c97de2d05063b8cb7b193c2531ea211",
                 "reference": "889546413c97de2d05063b8cb7b193c2531ea211",
+=======
+            "version": "2.65.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/09acf64155c16dc6f580f36569ae89344e9734a3",
+                "reference": "09acf64155c16dc6f580f36569ae89344e9734a3",
+>>>>>>> 1aaa511 (first and completed commit)
                 "shasum": ""
             },
             "require": {
@@ -1762,7 +1775,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2022-11-26T17:36:00+00:00"
+=======
+            "time": "2023-01-06T15:55:01+00:00"
+>>>>>>> 1aaa511 (first and completed commit)
         },
         {
             "name": "nikic/php-parser",
@@ -4898,6 +4915,7 @@
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
+<<<<<<< HEAD
             "version": "2.2.5",
             "source": {
                 "type": "git",
@@ -4908,6 +4926,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/4348a3a06651827a27d989ad1d13efec6bb49b19",
                 "reference": "4348a3a06651827a27d989ad1d13efec6bb49b19",
+=======
+            "version": "2.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
+                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/c42125b83a4fa63b187fdf29f9c93cb7733da30c",
+                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c",
+>>>>>>> 1aaa511 (first and completed commit)
                 "shasum": ""
             },
             "require": {
@@ -4945,9 +4975,15 @@
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "support": {
                 "issues": "https://github.com/tijsverkoyen/CssToInlineStyles/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.5"
             },
             "time": "2022-09-12T13:28:28+00:00"
+=======
+                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.6"
+            },
+            "time": "2023-01-03T09:29:04+00:00"
+>>>>>>> 1aaa511 (first and completed commit)
         },
         {
             "name": "vlucas/phpdotenv",
@@ -5624,6 +5660,7 @@
         },
         {
             "name": "laravel/sail",
+<<<<<<< HEAD
             "version": "v1.16.6",
             "source": {
                 "type": "git",
@@ -5634,6 +5671,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/sail/zipball/2e8be54590bde421eb04e461a1421302a5b22cca",
                 "reference": "2e8be54590bde421eb04e461a1421302a5b22cca",
+=======
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sail.git",
+                "reference": "7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80",
+                "reference": "7d69da7b2bdb8cbe8da6663eb2ae0e00c884bf80",
+>>>>>>> 1aaa511 (first and completed commit)
                 "shasum": ""
             },
             "require": {
@@ -5680,7 +5729,11 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
+<<<<<<< HEAD
             "time": "2022-12-19T15:41:32+00:00"
+=======
+            "time": "2022-12-22T14:46:08+00:00"
+>>>>>>> 1aaa511 (first and completed commit)
         },
         {
             "name": "mockery/mockery",

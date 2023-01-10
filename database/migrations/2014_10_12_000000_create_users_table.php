@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+<<<<<<< HEAD
 
             // CYW(S)
             $table -> string('u_icNo')->nullable();
@@ -28,6 +29,8 @@ class CreateUsersTable extends Migration
             $table -> date('u_birthday')->nullable();
             // CYW(E)
 
+=======
+>>>>>>> 1aaa511 (first and completed commit)
         });
     }
 

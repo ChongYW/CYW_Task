@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 //
 //Auth::routes();
 //
@@ -40,3 +41,43 @@ Route::put('/update', [\App\Http\Controllers\ProfileController::class, 'updatePr
 
 
 // CYW(E)
+=======
+
+//CYW(S)
+Route::get('/page-login', function () {
+    return view('page-login');
+});
+
+Route::get('/page-register', function () {
+    return view('page-register');
+});
+
+Route::get('/page-index-2', function () {
+    return view('index-2');
+});
+
+Route::get('/dashboard-dark', function () {
+    return view('dashboard-dark');
+});
+
+Route::get('logout', function ()
+{
+    auth()->logout();
+    Session()->flush();
+
+    return Redirect::to('/page-login');
+})->name('logout');
+
+//Route::get('/market', function () {
+//    return view('market');
+//});
+
+//Route::get('/page-test', [\App\Http\Controllers\Index1Controller::class, 'Index1']);
+
+
+//CYW(E)
+
+Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+>>>>>>> 1aaa511 (first and completed commit)

@@ -8,7 +8,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+<<<<<<< HEAD
 class User extends Authenticatable implements MustVerifyEmail
+=======
+class User extends Authenticatable
+>>>>>>> 1aaa511 (first and completed commit)
 {
     use HasApiTokens, HasFactory, Notifiable;
 
